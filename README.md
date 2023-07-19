@@ -13,3 +13,12 @@ uname & pwd : guest
 To install without docker, click [here](https://www.rabbitmq.com/download.html)
 
 ---
+
+## Installing mongodb
+~~~
+docker run -it --rm --name mongo_db  -d -p 27018:27017 mongo
+~~~
+
+Note: Make sure to disable windows firewall while connecting mongodb in docker.
+
+---
