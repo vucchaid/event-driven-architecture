@@ -18,6 +18,10 @@ type MongoDbLayer struct {
 }
 
 func NewMongoDBConnection(connection string) (*MongoDbLayer, error) {
+	_, err := mgo.ParseURL(connection)
+	if err != nil {
+		return nil, err
+	}
 	session, err := mgo.Dial(connection)
 	if err != nil {
 		return nil, err

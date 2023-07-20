@@ -22,3 +22,10 @@ docker run -it --rm --name mongo_db  -d -p 27018:27017 mongo
 Note: Make sure to disable windows firewall while connecting mongodb in docker.
 
 ---
+
+## Flow
+1. Event gets added via event-service
+2. event-service will publish about the event
+3. booking-service will be a subscribed to the event
+4. booking-service will know about the event
+5. event will be available for booking via booking-service
