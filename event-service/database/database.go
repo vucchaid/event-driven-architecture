@@ -2,9 +2,10 @@ package database
 
 import (
 	"errors"
-	"event-service/database/types/mongodb"
-	"event-service/model"
 	"strings"
+
+	"github.com/vucchaid/event-driven-architecture/event-service/database/types/mongodb"
+	"github.com/vucchaid/event-driven-architecture/event-service/model"
 )
 
 type DatabaseHandler interface {

@@ -1,9 +1,10 @@
 package main
 
 import (
-	"event-service/api"
-	"event-service/config"
 	"log"
+
+	"github.com/vucchaid/event-driven-architecture/event-service/api"
+	"github.com/vucchaid/event-driven-architecture/event-service/config"
 )
 
 func main() {

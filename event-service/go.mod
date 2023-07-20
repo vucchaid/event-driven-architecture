@@ -1,4 +1,4 @@
-module event-service
+module github.com/vucchaid/event-driven-architecture/event-service
 
 go 1.20
 

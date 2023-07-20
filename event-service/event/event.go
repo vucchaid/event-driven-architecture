@@ -3,11 +3,13 @@ package event
 import (
 	"encoding/hex"
 	"encoding/json"
-	"event-service/database"
-	"event-service/model"
 	"fmt"
 	"net/http"
 	"strings"
+
+	"github.com/vucchaid/event-driven-architecture/event-service/model"
+
+	"github.com/vucchaid/event-driven-architecture/event-service/database"
 
 	"github.com/gorilla/mux"
 )
