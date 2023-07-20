@@ -3,8 +3,8 @@ package main
 import (
 	"log"
 
-	"github.com/vucchaid/event-driven-architecture/event-service/api"
-	"github.com/vucchaid/event-driven-architecture/event-service/config"
+	"github.com/vucchaid/event-service/api"
+	"github.com/vucchaid/event-service/config"
 )
 
 func main() {

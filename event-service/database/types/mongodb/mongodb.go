@@ -1,7 +1,7 @@
 package mongodb
 
 import (
-	"github.com/vucchaid/event-driven-architecture/event-service/model"
+	"github.com/vucchaid/event-service/model"
 
 	"gopkg.in/mgo.v2"
 	"gopkg.in/mgo.v2/bson"

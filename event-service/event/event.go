@@ -7,9 +7,9 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/vucchaid/event-driven-architecture/event-service/model"
+	"github.com/vucchaid/event-service/model"
 
-	"github.com/vucchaid/event-driven-architecture/event-service/database"
+	"github.com/vucchaid/event-service/database"
 
 	"github.com/gorilla/mux"
 )

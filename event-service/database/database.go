@@ -4,8 +4,8 @@ import (
 	"errors"
 	"strings"
 
-	"github.com/vucchaid/event-driven-architecture/event-service/database/types/mongodb"
-	"github.com/vucchaid/event-driven-architecture/event-service/model"
+	"github.com/vucchaid/event-service/database/types/mongodb"
+	"github.com/vucchaid/event-service/model"
 )
 
 type DatabaseHandler interface {

@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/vucchaid/event-driven-architecture/event-service/database"
-	"github.com/vucchaid/event-driven-architecture/event-service/event"
+	"github.com/vucchaid/event-service/database"
+	"github.com/vucchaid/event-service/event"
 
 	"github.com/gorilla/mux"
 )
